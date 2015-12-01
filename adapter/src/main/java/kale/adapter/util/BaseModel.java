@@ -6,5 +6,5 @@ package kale.adapter.util;
  * 超级简单的model，没啥特别的
  */
 public class BaseModel {
-    public String itemType = getClass().getSimpleName();
+    public final String itemType = getClass().getSimpleName();
 }
